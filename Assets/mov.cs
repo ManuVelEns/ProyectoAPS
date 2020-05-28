@@ -6,14 +6,20 @@ public class mov : MonoBehaviour
 {
     private int move = 0;
     public float speed = 10.0F;
+    private Vector3 posicion;
     // Start is called before the first frame update
     void Start()
     {
-        
+        posicion = new Vector3(0, 1.5f, 27);
     }
     // Update is called once per frame
     void Update()
-    {        
+    {   
+
+        if(this.transform.position == posicion)
+        {
+            move = 0;
+        }
         if (Input.touchCount > 0)
         {
             // Debug.Log(Input.touchCount);

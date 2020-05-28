@@ -1,4 +1,4 @@
-Simple Equation's
+ProyectoAPS
 
 Proyecto para la materia de Administracion de Proyectos de Software 
 
